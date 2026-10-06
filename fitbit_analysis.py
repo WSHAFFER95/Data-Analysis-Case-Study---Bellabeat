@@ -4,9 +4,8 @@ import scipy.stats as scp
 import scikit_posthocs as ph
 import matplotlib.pyplot as plt
 
-dailylsdf = pd.read_csv("C:\\Users\\kelvi\\Documents\\Python_Projects\\Datasets\\hourly_fitbit_" +
-"sema_df_unprocessed.csv",low_memory=False)
-breq2df = pd.read_csv("C:\\Users\\kelvi\\Documents\\Python_Projects\\Datasets\\breq.csv",low_memory=False)
+dailylsdf = pd.read_csv("Datasets/hourly_fitbit_sema_df_unprocessed.csv",low_memory=False)
+breq2df = pd.read_csv("Datasets/breq.csv",low_memory=False)
 
 
 # Per https://www.bls.gov/opub/ted/2023/time-spent-in-leisure-and-sports-activities-2022.htm: average exercise for
